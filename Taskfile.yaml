@@ -1,0 +1,6 @@
+version: "3"
+
+includes:
+  deps:
+    taskfile: ./deps/Taskfile.yaml
+    dir: ./deps

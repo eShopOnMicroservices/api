@@ -1,0 +1,13 @@
+version: "3"
+
+silent: false
+
+tasks:
+  fetch-submodules:
+    cmds:
+      - for: ["googleapis", "protobuf", "grpc-gateway"]
+        cmd: git submodule update --init {{.ITEM}}
+    status:
+      - "test -f googleapis/.git"
+      - "test -f protobuf/.git"
+      - "test -f grpc-gateway/.git"
