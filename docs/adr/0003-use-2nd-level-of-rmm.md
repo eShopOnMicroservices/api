@@ -25,7 +25,7 @@ Use 2nd level(resources + verbs).
 
 ## Implications
 
-1. **Documentatation coupling**: Since we don't provide possible interactions
+1. **Documentation coupling**: Since we don't provide possible interactions
    with resources via HATEOAS, frontend developers are forced to use the
    documentation, probably in the format of [OpenAPI
    3.0](https://www.openapis.org) as this is the most popular REST API
