@@ -1,14 +1,14 @@
 ---
-name: pull-request-sync-template
+name: schedule-sync-template
 
 # yamllint disable-line rule:truthy
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: 0 */2 * * *
   workflow_dispatch:
 
 jobs:
-  sync-template:
+  run:
     runs-on: ubuntu-22.04
     if: ${{ github.repository }} != 'eShopOnMicroservices/repository-template'
     steps:
