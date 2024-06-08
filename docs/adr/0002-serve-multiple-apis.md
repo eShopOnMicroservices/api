@@ -2,7 +2,11 @@
 
 Date: 2024-06-04
 
-Status: Accepted
+## Status
+
+Accepted
+
+Amended by [4. Use OAS for RESTful API](0004-use-oas-for-restful-api.md)
 
 ## Context
 
