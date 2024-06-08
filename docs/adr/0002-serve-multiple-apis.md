@@ -2,7 +2,9 @@
 
 Date: 2024-06-04
 
-Status: Accepted
+## Status
+
+Accepted
 
 ## Context
 
