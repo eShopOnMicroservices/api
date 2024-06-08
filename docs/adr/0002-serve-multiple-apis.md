@@ -6,6 +6,8 @@ Date: 2024-06-04
 
 Accepted
 
+Amended by [4. Use OAS for RESTful API](0004-use-oas-for-restful-api.md)
+
 ## Context
 
 Different frontends, whetever it is web single-page app or mobile app have
